@@ -1,0 +1,16 @@
+{
+  "babylon": {
+    "serverId": "1046686458070700112",
+    "channelId": "1075371070493831259",
+    "type": "msg",
+    "cycle": 86400,
+    "arg1": "!faucet"
+  },
+  "avail": {
+    "serverId": "1065831819154563132",
+    "channelId": "1171414018028740698",
+    "type": "cmd",
+    "cycle": 10800,
+    "arg1": "deposit-rollup"
+  }
+}
