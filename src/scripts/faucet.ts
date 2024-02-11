@@ -32,10 +32,12 @@ export const runFaucet = async (project: string, options: FaucetOptions) => {
 	await puppet.start()
 	await puppet.goToChannel(serverId, channelId)
 	if (type === 'msg') {
+		puppet.sendMessage(arg1 + ' ' + account)
 		setInterval(() => {
 			puppet.sendMessage(arg1 + ' ' + account)
 		}, cycle * 1000)
 	} else {
+		puppet.sendCommand(arg1, account)
 		setInterval(() => {
 			puppet.sendCommand(arg1, account)
 		}, cycle * 1000)

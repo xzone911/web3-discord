@@ -11,6 +11,6 @@
     "channelId": "1171414018028740698",
     "type": "cmd",
     "cycle": 10800,
-    "arg1": "deposit-rollup"
+    "arg1": "deposit"
   }
 }
